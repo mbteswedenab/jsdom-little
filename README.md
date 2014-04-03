@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dorny/jsdom-little.png?branch=master)](https://travis-ci.org/dorny/jsdom-little)
+
 # jsdom-little
 Lightweight cut down version of [jsdom](https://github.com/tmpvar/jsdom).
 
