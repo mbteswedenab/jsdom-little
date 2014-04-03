@@ -1,5 +1,5 @@
 {
-    "name": "jsdom",
+    "name": "jsdom-little",
     "version": "0.10.4",
     "description": "Lightweight fork of jsdom without contextify",
     "keywords": ["dom", "w3c", "html"],
