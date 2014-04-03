@@ -8,10 +8,12 @@ Lightweight cut down version of [jsdom](https://github.com/tmpvar/jsdom).
 
 ## Removed features:
 * Running JavaScript code in browser context
-* Fetching or processing external rewsources
+* Fetching or processing external resources
+* Window
 * Events
 * XmlHttpRequest
-* jsdom.env(...)
+* Content of `<style>` nodes is not evaluated
+* jsdom.env works only as ```jsdom.env(html, level, callback)``` and returns ```{document: document}```
 
 ## What it is good for?
 * You need something from jsdom (DOM, parsing, etc.) but full browser emulation is overkill.
