@@ -1,6 +1,6 @@
 {
     "name": "jsdom-little",
-    "version": "0.10.4",
+    "version": "0.10.5",
     "description": "Lightweight cut down version of jsdom without contextify",
     "keywords": ["dom", "w3c", "html"],
     "author": {
