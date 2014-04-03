@@ -256,7 +256,7 @@ exports.tests = {
     test.done();
   },
 
-  input_fires_click_event : function(test) {
+  /*input_fires_click_event : function(test) {
     doc = jsdom.jsdom(
       '<html><head></head><body>' +
         '<input type="checkbox" id="check" value="check" />' +
@@ -271,9 +271,9 @@ exports.tests = {
     })
 
     checkbox.click();
-  },
+  },*/
 
-  basic_radio_selected : function(test) {
+  /*basic_radio_selected : function(test) {
     doc = jsdom.jsdom(
       '<html><head></head><body>' +
         '<input type="radio" id="rad0" value="rad0" name="radioGroup0" />' +
@@ -301,9 +301,9 @@ exports.tests = {
     test.ok(radio2.checked, "radio checked");
 
     test.done();
-  },
+  },*/
 
-  radio_no_click_deselected : function(test) {
+  /*radio_no_click_deselected : function(test) {
     doc = jsdom.jsdom(
       '<html><head></head><body>' +
         '<input type="radio" id="rad0" value="rad0" name="radioGroup0" />' +
@@ -318,7 +318,7 @@ exports.tests = {
     test.ok(radio0.checked, "radio checked");
 
     test.done();
-  },
+  },*/
 
   select_set_value_updates_value : function(test) {
     var doc = new browser.Document();

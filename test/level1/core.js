@@ -21850,16 +21850,16 @@ exports.tests = {
     test.done();
   },
 
-  onevent_properties_are_set_on_setAttribute: function(test) {
+  /*onevent_properties_are_set_on_setAttribute: function(test) {
     var dom = require("../../lib/jsdom/level1/core").dom.level1.core;
     var doc = new dom.Document('');
     var elem = doc.createElement('test');
     elem.setAttribute('onclick', 'test');
     test.ok(elem.onclick, 'elem.onclick is set');
     test.done();
-  },
+  },*/
 
-  onevent_properties_are_set_on_setAttributeNode: function(test) {
+  /*onevent_properties_are_set_on_setAttributeNode: function(test) {
     var dom = require("../../lib/jsdom/level1/core").dom.level1.core;
     var doc = new dom.Document('');
     var elem = doc.createElement('test');
@@ -21869,9 +21869,9 @@ exports.tests = {
     elem.setAttributeNode(attr);
     test.ok(elem.onclick, 'elem.onevent is set');
     test.done();
-  },
+  },*/
 
-  onevent_properties_are_set_on_attr_set_value: function(test) {
+  /*onevent_properties_are_set_on_attr_set_value: function(test) {
     var dom = require("../../lib/jsdom/level1/core").dom.level1.core;
     var doc = new dom.Document('');
     var elem = doc.createElement('test');
@@ -21881,5 +21881,5 @@ exports.tests = {
     attr.value = 'test';
     test.ok(elem.onclick, 'elem.onevent is set');
     test.done();
-  }
+  }*/
 };

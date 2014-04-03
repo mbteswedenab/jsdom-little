@@ -1,9 +1,7 @@
 benchmark/
 example/
 test/
-Changelog.md
-status.json
-Contributing.md
+
 
 .npmignore
 .DS_Store

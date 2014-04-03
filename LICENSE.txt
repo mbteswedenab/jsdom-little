@@ -1,3 +1,10 @@
+Copyright (c) 2014 Michal Dorner
+
+This is fork of https://github.com/tmpvar/jsdom.
+All credits for hard work goes to original author
+and contributors.
+
+
 Copyright (c) 2010 Elijah Insua
 
 Permission is hereby granted, free of charge, to any person

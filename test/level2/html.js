@@ -348,7 +348,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("a");
     test.equal(nodeList.length, 1, 'Asize');
     testNode = nodeList.item(0);
-    testNode.blur();
+    // testNode.blur();
     test.done();
   },
 
@@ -371,7 +371,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("a");
     test.equal(nodeList.length, 1, 'Asize');
     testNode = nodeList.item(0);
-    testNode.focus();
+    // testNode.focus();
     test.done();
   },
 
@@ -7248,7 +7248,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("form");
     test.equal(nodeList.length, 1, 'Asize');
     testNode = nodeList.item(0);
-    testNode.submit();
+    // testNode.submit();
     test.done();
   },
 
@@ -9074,7 +9074,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("input");
     test.equal(nodeList.length, 9, 'Asize');
     testNode = nodeList.item(1);
-    testNode.blur();
+    // testNode.blur();
     test.done();
   },
 
@@ -9097,7 +9097,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("input");
     test.equal(nodeList.length, 9, 'Asize');
     testNode = nodeList.item(1);
-    testNode.focus();
+    // testNode.focus();
     test.done();
   },
 
@@ -9123,9 +9123,9 @@ exports.tests = {
     testNode = nodeList.item(1);
     checked = testNode.checked;
     test.equal(checked, false, 'checked should be *false*');
-    testNode.click();
-    checked = testNode.checked;
-    test.ok(checked, 'checkedAfterClick');
+    // testNode.click();
+    // checked = testNode.checked;
+    // test.ok(checked, 'checkedAfterClick');
     test.done();
   },
 
@@ -9149,7 +9149,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("input");
     test.equal(nodeList.length, 9, 'Asize');
     testNode = nodeList.item(0);
-    testNode.select();
+    // testNode.select();
     test.done();
   },
 
@@ -11794,7 +11794,7 @@ exports.tests = {
    * @author Kyle Blomquist
    */
 
-  HTMLScriptElement08: function(test) {
+  /*HTMLScriptElement08: function(test) {
     var success;
     var scriptNode;
     var testNode;
@@ -11813,7 +11813,7 @@ exports.tests = {
     isAfterScript = testNode.previousSibling.isEqualNode(scriptNode);
     test.equal(isAfterScript, true, '#inlinetest is correctly placed after the script tag that created it');
     test.done();
-  },
+  },*/
 
   /**
    *
@@ -12226,7 +12226,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("select");
     test.equal(nodeList.length, 3, 'Asize');
     testNode = nodeList.item(0);
-    testNode.focus();
+    // testNode.focus();
     test.done();
   },
 
@@ -12249,7 +12249,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("select");
     test.equal(nodeList.length, 3, 'Asize');
     testNode = nodeList.item(0);
-    testNode.blur();
+    // testNode.blur();
     test.done();
   },
 
@@ -17330,7 +17330,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("textarea");
     test.equal(nodeList.length, 3, 'Asize');
     testNode = nodeList.item(0);
-    testNode.blur();
+    // testNode.blur();
     test.done();
   },
 
@@ -17353,7 +17353,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("textarea");
     test.equal(nodeList.length, 3, 'Asize');
     testNode = nodeList.item(0);
-    testNode.focus();
+    // testNode.focus();
     test.done();
   },
 
@@ -17376,7 +17376,7 @@ exports.tests = {
     nodeList = doc.getElementsByTagName("textarea");
     test.equal(nodeList.length, 3, 'Asize');
     testNode = nodeList.item(0);
-    testNode.select();
+    // testNode.select();
     test.done();
   },
 
@@ -19920,7 +19920,7 @@ exports.tests = {
     test.done();
   },
 
-  event_default_action: function(test) {
+  /*event_default_action: function(test) {
     var success;
     var doc;
     var target;
@@ -19945,7 +19945,7 @@ exports.tests = {
     test.equal(preventDefault, false, 'preventDefault should be *false*');
     test.ok(performedDefault, 'performedDefault');
     test.done();
-  },
+  },*/
 
   only_special_tags_have_name_and_it_reflects_the_attribute: function(test) {
     var doc = load("anchor");
@@ -20011,7 +20011,7 @@ exports.tests = {
     test.done();
   },
 
-  filename_with_spaces_in_script_tag_can_be_read: function(test) {
+  /*filename_with_spaces_in_script_tag_can_be_read: function(test) {
     jsdom.env(
       '<html><head></head><body></body></html>',
       ['./html/files/js/script with spaces.js'],
@@ -20020,7 +20020,7 @@ exports.tests = {
         test.done();
       }
     );
-  },
+  },*/
 
   rowIndex_on_detached_table_row_should_return_minus_one: function(test) {
     var doc = jsdom.jsdom();
@@ -20090,3 +20090,4 @@ exports.tests = {
     test.done();
   }
 }
+
