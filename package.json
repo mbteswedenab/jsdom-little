@@ -7,7 +7,7 @@
       "name": "Michal Dorner",
       "email": "dorner.michal@gmail.com"
     },
-    "bugs": "https://github.com/dorny/jsdom/jsdom-little",
+    "bugs": "https://github.com/dorny/jsdom-little/issues",
     "license": {
         "type": "MIT",
         "url": "http://github.com/dorny/jsdom-little/blob/master/LICENSE.txt"
