@@ -1,5 +1,11 @@
 [![Build Status](https://travis-ci.org/dorny/jsdom-little.png?branch=master)](https://travis-ci.org/dorny/jsdom-little)
 
+**WARNING:** this fork is based on legacy jsdom version ~0.10.5.
+
+
+**UPDATE:** jsdom 4+ doesn't depend on contextify anymore however it no longer works with Node.js™ and instead requires [io.js](http://iojs.org).
+
+
 # jsdom-little
 Lightweight cut down version of [jsdom](https://github.com/tmpvar/jsdom).
 
@@ -19,6 +25,3 @@ Lightweight cut down version of [jsdom](https://github.com/tmpvar/jsdom).
 
 ## What it is good for?
 * You need something from jsdom (DOM, parsing, etc.) but full browser emulation is overkill.
-
-## Why not use original jsdom?
-* jsdom uses native module [contextify](https://github.com/brianmcd/contextify), see [link](https://github.com/tmpvar/jsdom#contextify).
